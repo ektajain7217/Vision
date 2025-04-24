@@ -1,0 +1,35 @@
+name: vision
+description: AI Assistant app with voice chat, text chat, and document sharing capabilities.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: any
+  http: any
+  provider: any
+  speech_to_text: any
+  flutter_tts: any
+  file_picker: any
+  shared_preferences: any
+  flutter_markdown: any
+  path_provider: any
+  flutter_dotenv: ^5.2.1
+  intl: any
+  uuid: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
